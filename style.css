@@ -1,0 +1,47 @@
+h1 {
+    font-size: 70px;
+  }
+  
+  
+body{
+    margin: 0;
+    padding: 0;
+    background:#f1f1f1;
+    color: #454545;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    overflow-y: scroll; 
+    font-size:default
+}
+
+body{
+    background-color: #222;
+}
+
+h1, h3{
+  position: top;
+  top: 35%;
+  left: 15%;
+  background: linear-gradient(90deg, #ff6a6a, #ffdf53, #e6b223);
+  background-size: 400%;
+  font-size: 100px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0px;
+  font-weight: 600;
+  word-spacing: 0px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip:  text;
+  animation: animate 10s linear infinite;
+}
+  @keyframes animate{
+      0%{
+          background-position: 0%;
+      }
+      100%{
+          background-position: 400%; 
+      }
+  }
+
+  h3{
+    font-size: 30px;
+  }
